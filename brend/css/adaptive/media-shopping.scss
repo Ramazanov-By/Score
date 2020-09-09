@@ -1,0 +1,36 @@
+@media screen and (max-width: 1285px) {
+      .cart-top__titlemar {
+            width: 350px;
+      }
+      .cart-top-product__tovar {
+            width: 400px;
+      }
+      .cart-top-product__list {
+            margin-right: 80px;
+      }
+      .cart-bottom__content {
+            flex-wrap: wrap;
+      }
+      .cart-bottom__contact {
+            display: flex;
+            width: 100%;
+            margin-bottom: 50px;
+            justify-content: space-between;
+      }
+      .cart-bottom__adress,
+      .cart-bottom__coupon {
+            margin-right: 0;
+      }
+      .cart-bottom__purchase {
+            text-align: center;
+      }
+      .cart-bottom__subtotal {
+            font-size: 13px;
+      }
+      .cart-bottom__grand-total {
+            font-size: 18px;
+      }
+      .cart-button__tovar {
+            width: auto;
+      }
+}

@@ -1,0 +1,94 @@
+/* Style для иконочных шрифтов*/
+
+.fa-long-arrow-right {
+      margin-left: 10px;
+}
+
+.footer-bottom__fa {
+      color: #b2b2b2;
+      font-size: 16px;
+}
+
+.fa-times {
+      color: #fff;
+      font-size: 9px;
+}
+
+.fa-star__tovar {
+      opacity: 0;
+      color: #e4af48;
+      position: relative;
+      right: -10px;
+}
+
+.fa-star__header {
+      color: #e4af48;
+      margin: -1px;
+      font-size: 12px;
+}
+
+.fa-times__header{
+      font-size: 7px;
+}
+
+.Fetured__link-tov:hover .fa-star {
+      opacity: 1;
+}
+
+.content-Search:focus,
+.Search:focus,
+.header-left__button:focus,
+.my_acc:focus,
+.bottom-contact__right-input:focus,
+.bottom-contact__right-button:focus,
+.contact-user__item-email:focus,
+.contact-user__item-pass:focus,
+.contact-user__item-button:focus,
+.sort-tovar__select:focus,
+.sort-tovar__button:focus,
+.cart-bottom__input:focus,
+.info-tovar-bottom__choice:focus {
+      outline: none;
+}
+
+.content-Search:hover,
+.header-left__button:hover,
+.my_acc:hover,
+.bottom-contact__right-button:hover,
+.contact-user__item-button:hover,
+.sort-tovar__select:hover,
+.sort-tovar__button:hover,
+.info-tovar-bottom__choice:hover {
+      cursor: pointer;
+}
+   
+html,
+body {
+      height: 100%;
+}
+
+body {
+      font-family: Lato;
+      font-size: 16px;
+}
+
+.wrapper {
+      display: flex;
+      height: 100%;
+      min-width: 985px;
+      flex-direction: column;
+}
+
+.main {
+      flex: 1 0 auto;
+}
+  
+.conteiner {  
+      width: 1210px;
+      margin: 0 auto;
+      padding: 0 30px;
+}
+
+.footer {
+      flex: 0 0 auto;
+}

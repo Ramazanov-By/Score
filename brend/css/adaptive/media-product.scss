@@ -1,0 +1,29 @@
+@media screen and (max-width: 1285px) {
+      .main-conteiner {
+            flex-wrap: wrap;
+      }
+      .sidebar {
+            width: 100%;
+            margin-right: 0;
+      }
+      .sidebar-list {
+            display: flex;
+            justify-content: space-between;
+      }
+      .sidebar-item {
+            width: 33%;
+      }
+      .sidebar-item__head {
+            margin-right: -5px;
+      }
+      .sidebar-item__head::after {
+            right: 25px;
+      }
+      .sidebar-item__head-activ::after{
+            top: 4px;
+      }
+
+      .banner__conteiner-product{
+            display: block; 
+      }
+}

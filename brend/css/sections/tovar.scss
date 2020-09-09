@@ -1,0 +1,330 @@
+.Fetured-items__head {
+      color: #4d4d4d;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+}
+
+.Fetured__link-tov:hover {
+      box-shadow: none;
+}
+
+.arrivals__tovar {
+      margin-bottom: 0;
+}
+
+.slider-tovar {
+      display: flex;
+      width: 100%;
+      height: 750px;
+      border-top: 1px solid #eaeaea;
+      border-bottom: 1px solid #eaeaea;
+      align-items: center;
+      position: relative;
+}
+
+.slider-tovar__item {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      animation: sliderTovarItemAnimation 1s; 
+      
+}
+
+.slider-tovar__img{
+      width: 100%;
+}
+
+.triangle__left,
+.triangle__right {
+      width: 47px;
+      height: 47px;
+      position: absolute;
+      background-color: #d8d8d8;
+}
+
+.triangle__left:hover,
+.triangle__right:hover {
+      background-color: #fff;
+      cursor: pointer;
+}
+
+.triangle__left::after {
+      content: "";
+      position: absolute;
+      display: block;
+      border: 7px solid transparent;
+      border-right: 8px solid #d8d8d8;
+      left: 13px;
+      bottom: 16px;
+}
+
+.triangle__left::before {
+      content: "";
+      border: 7px solid transparent;
+      border-radius: 3px;
+      border-right: 8px solid #fff;
+      position: absolute;
+      left: 10px;
+      top: 17px;
+}
+
+.triangle__left:hover::after {
+      border-right: 8px solid #fff;
+}
+
+.triangle__left:hover::before {
+      border-right: 8px solid #d8d8d8;
+}
+
+.triangle__right {
+      right: 0;
+}
+
+.triangle__right::after {
+      content: "";
+      position: absolute;
+      display: block;
+      border: 7px solid transparent;
+      border-left: 8px solid #d8d8d8;
+      left: 19px;
+      bottom: 16px;
+}
+
+.triangle__right::before {
+      content: "";
+      border: 7px solid transparent;
+      border-radius: 3px;
+      border-left: 8px solid #fff;
+      position: absolute;
+      left: 22px;
+      top: 17px;
+}
+
+.triangle__right:hover::after {
+      border-left: 8px solid #fff;
+}
+
+.triangle__right:hover::before {
+      border-left: 8px solid #d8d8d8;
+}
+
+.info-tovar {
+      width: 100%;
+      height: 730px;
+      margin-bottom: 10px;
+      border: 1px solid #eaeaea;
+      background-color: #ffffff;
+      position: relative;
+      bottom: 75px;
+}
+
+.info-tovar__conteiner {
+      width: 620px;
+      height: 100%;
+      margin: 0 auto;
+}
+
+.info-tovar-top {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 70px 0 40px 0;
+      border-bottom: 1px solid #eaeaea;
+}
+
+.info-tovar-top__title {
+      display: inline-block;
+      color: #f16d7f;
+      font-size: 14px;
+      font-weight: 700;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      position: relative;
+      text-transform: uppercase;
+      border-bottom: 1px solid #eaeaea;
+}
+
+.info-tovar-top__title:after {
+      content: "";
+      position: absolute;
+      width: 63px;
+      height: 3px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ef5b70;
+}
+
+.info-tovar-top__head {
+      color: #4d4d4d;
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 65px;
+      text-transform: uppercase;
+}
+
+.info-tovar-top__description {
+      color: #5e5e5e;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0 10px;
+      margin-bottom: 25px;
+      line-height: 24px;
+}
+
+.info-tovar-top__manufacturer {
+      display: flex;
+      margin-bottom: 35px;
+      justify-content: center;
+      text-transform: uppercase;
+}
+
+.info-tovar-top__material {
+      margin-right: 25px;
+}
+
+info-tovar-top__material,
+.info-tovar-top__designer {
+      color: #2f2f2f;
+}
+
+.info-tovar-top__sp {
+      color: #b9b9b9;
+      font-size: 14px;
+      font-weight: 700;
+}
+
+.info-tovar-top__price {
+      color: #ef5b70;
+      font-size: 24px;
+      font-weight: 700;
+}
+
+.info-tovar-bottom {
+      padding: 0 45px;
+}
+
+.info-tovar-bottom__head {
+      display: flex;
+      margin-bottom: 15px;
+}
+
+.info-tovar-bottom__title {
+      color: #2f2f2f;
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 90px;
+      text-transform: uppercase;
+}
+
+.info-tovar-bottom__title:last-child {
+      margin-right: 0;
+}
+
+.info-tovar-bottom__inp {
+      display: flex;
+      margin-bottom: 30px;
+}
+
+.info-tovar-bottom__color {
+      margin-right: 55px;
+      position: relative;
+}
+
+.info-tovar-bottom__select::after {
+      content: "";
+      position: absolute;
+      border: 5px solid transparent;
+      border-radius: 3px;
+      border-top: 5px solid #bcbcbc;
+      top: 40%;
+      right: 10px;
+}
+
+.info-tovar-bottom__select::before {
+      content: "";
+      position: absolute;
+      border: 5px solid transparent;
+      border-radius: 3px;
+      border-top: 5px solid #fff;
+      right: 10px;
+      top: 35%;
+      z-index: 1;
+}
+
+.info-tovar-bottom__size {
+      margin-right: 40px;
+      position: relative;
+}
+
+.info-tovar-bottom__choice {
+      width: 140px;
+      height: 35px;
+      color: #bcbcbc;
+      font-size: 13px;
+      padding: 0 5px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      box-sizing: border-box;
+      border: 1px solid #eaeaea;
+}
+
+.info-tovar-bottom__choice:last-child {
+      margin-right: 0;
+}
+
+.info-tovar-bottom__number:hover {
+      cursor: text;
+}
+
+.info-tovar-bottom__shopping {
+      display: flex;
+      width: 100%;
+      color: #ef5b70;
+      padding: 20px 0;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ef5b70;
+      transition: background-color 0.2s;
+}
+
+.info-tovar-bottom__shopping:hover {
+      color: #fff;
+      background-color: #ef5b70;
+}
+
+.info-tovar-bottom__shopping::before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 25px;
+      margin-right: 15px;
+      background: url(../img/decor/shopping-pink.svg) no-repeat 36% center;
+}
+
+.info-tovar-bottom__shopping:hover:before {
+      background: url(../img/decor/shopping-white.svg) no-repeat 36% center;
+      background-size: contain;
+}
+
+.Fetured-img__price {
+      display: inline-block;
+      width: 60%;
+}
+
+//Анимация 
+
+@keyframes sliderTovarItemAnimation{
+      0%{
+            opacity: 0.5;
+      }
+      100%{
+            opacity: 1;
+      }
+}

@@ -1,0 +1,22 @@
+// layout  
+@import "misc/mixins";
+@import "misc/adjustment";
+ 
+// styles 
+@import "sections/footer"; 
+@import "sections/index"; 
+@import "sections/product";
+@import "sections/checkout";
+@import "sections/shopping";
+@import "sections/tovar";
+@import "sections/header";
+
+
+//media
+@import "adaptive/media-adjustment"; 
+@import "adaptive/media-index";
+@import "adaptive/media-product"; 
+@import "adaptive/media-shopping"; 
+@import "adaptive/media-checkout";  
+
+

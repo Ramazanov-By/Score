@@ -1,0 +1,74 @@
+@media screen and (max-width: 1285px) {
+      // hd
+      .section-bg {
+            background: url(../img/content/layer-24.jpg) no-repeat -105px -55px;
+      }
+      .section-slider__text {
+            width: 385px;
+            font-size: 30px;
+      }
+      .section-slider__title {
+            font-size: 52px;
+      }
+      .section-category {
+            height: 670px;
+      }
+      .category-men,
+      .category-kids {
+            height: 420px;
+      }
+      .category-women,
+      .category-accesories {
+            height: 220px;
+      }
+      .category-text {
+            width: 160px;
+            font-size: 13px;
+            font-weight: 700;
+      }
+      .category-text__header {
+            font-size: 21px;
+      }
+      .Fetured__list {
+            display: flex;
+            flex-wrap: wrap;
+      }
+      .Fetured__item {
+            width: 290px;
+      }
+      .Fetured__item-home:nth-child(4n) {
+            margin-right: 25px;
+      }
+      .Fetured__item-home:nth-child(3n) {
+            margin-right: 0;
+      }
+      .Fetured__item-home__media {
+            display: block;
+      }
+      .banner-left {
+            background: url(../img/content/baner.jpg) no-repeat top;
+            background-size: cover;
+      }  
+      .banner-left__text {
+            width: 220px;
+            margin: 145px 0 0 25px;
+      }
+      .banner__left-title {
+            font-size: 38px;
+      }
+      .banner-left__subtitle {
+            font-size: 26px;
+      }
+      .bottom-contact__left {
+            width: 55%;
+      }
+      .bottom-contact__left-quotation {
+            width: 325px;
+      }
+      .footer-info__text {
+            width: 370px;
+      }
+      .footer-menu__inner {
+            font-size: 16px;
+      }
+}

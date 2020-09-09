@@ -1,0 +1,260 @@
+@media screen and (max-width: 1200px) { // hd
+    
+    html{
+        	font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) { // laptop
+    
+    html{
+        	font-size: 14px;
+    }
+    
+           // content
+    
+    .container{
+        width: 750px;
+    }
+    
+    .page-content{
+    width: 39.8rem;
+}
+    
+    .about__left{
+        width: 18.5rem;
+    }
+    
+    .aboun__pic-img{
+        max-width: 12.125rem;
+        max-height: 11.7rem;
+    }
+    
+    .about__right{
+        width: 21.125rem;
+    }
+    
+             //career
+    
+    .page-carrer{
+    width: 39.8rem;
+    }
+    
+    .career__right{
+        width: 26rem;
+    }
+    
+    .carrer__block{
+        width: 19rem;
+    }
+    
+    //portfolio
+    
+    .page-portfolio{
+        width: 39.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) { //tablets
+    
+    html{
+        	font-size: 13px;
+    }
+    
+            //index
+    .hello{
+        width: 22.19rem;
+    }
+  
+            // content
+    
+    .container{
+        width: 480px;
+    }
+    
+    .sidebar{
+        width: 100%;
+        float: none;
+        margin-bottom: 2.1875rem; 
+    }
+    
+    .nav__item{
+        @include inlineblock(middle);
+    }
+    
+    .nav__link{
+        border: 0 none;
+        text-align: left;
+    }
+    
+            //career
+    
+    .page-carrer{
+    width: 36.8rem;
+}
+    
+    .career__right{
+        width: 25rem;
+    }
+    
+    .carrer__block{
+        width: 16rem;
+    }
+    
+          //portfolio
+    
+    .page-portfolio{
+        width: 36.8rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) { //phone
+    
+    html{
+        	font-size: 12px;
+    }
+    
+           //index
+    .hello{
+        width: 18.75rem;
+    }
+    
+    .container{
+        width: 300px;
+    }
+           //header
+    .user__name{
+       width: 4.68rem; 
+    }
+    
+    .contacts{
+        top: 0;
+    }
+    
+    .contacts__link{
+        background: none;
+        font-size: 40px;
+        
+        &:hover{
+            background: none;
+        }
+    }
+    
+    .fa-phone:before{
+        display: block;
+    }
+    
+    .contacts__text{
+        display: none;
+    }
+    
+    .contacts__dropdown{
+    right: -5px;
+    top: 4.2rem;
+}
+
+.triangle{
+    left: 85%;
+}  
+
+          // content
+    
+    .nav__icons{
+        display: none;
+    }
+    
+    .page-content{
+        width: 25rem;
+    }
+    
+    .about__left, .about__right, .page-content, .about__btns, .footer__left{
+        float: none;
+    }
+    
+    .about__left{
+        width: 25rem;
+    }
+    
+    .title{
+        font-size: 25px;
+        position: relative;
+        left: 100px;
+    }
+    
+    .about__desc{
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .about__btns{
+        position: relative;
+        left: 70px;
+    }
+    
+           //career
+    
+    .page-carrer{
+        width: 25rem; 
+    }
+    
+    .title-career{
+        left: 40px;
+    }
+    
+    .career__pic-img{
+        position: relative;
+        left: 50px;
+        max-width: 15rem;
+        max-height: 15rem;
+        margin-bottom: 20px;
+    }
+    
+    .carrer__block{
+        width: 20rem;
+        position: relative;
+        right: 25px;
+    }
+    
+    .carrer__yera, .carrer__block:after, .carrer__block:before{
+        display: none;
+    }
+    
+           //portfolio
+    
+    .page-portfolio{
+        width: 25rem;
+    }
+    
+    .title-portfolio{
+        position: relative;
+        left: 65px;
+    }
+    
+    .courses__list{
+        position: relative;
+        left: 30px;
+    }
+    
+    .courses__item{
+        width: 18.75rem;
+    }
+    
+           //footer
+    footer{
+        height: 100px;
+    }
+    
+    .footer__right{
+        position: relative;
+        right: 95px;
+        top: 20px;
+    }
+    
+    .footer__left{
+        text-align: center;
+    }
+    
+}
